@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9608438E2064B9CD003ADC16 /* LoginActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608438D2064B9CD003ADC16 /* LoginActivity.m */; };
 		960843922064C5F5003ADC16 /* NavUtilsEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843912064C5F5003ADC16 /* NavUtilsEx.m */; };
 		9608439E2064DDB5003ADC16 /* ScreenUtilsExP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608439D2064DDB5003ADC16 /* ScreenUtilsExP.m */; };
 		960843A02064F3E0003ADC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9608439F2064F3E0003ADC16 /* Assets.xcassets */; };
@@ -28,10 +27,11 @@
 		960843DB206A15BB003ADC16 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843DA206A15BB003ADC16 /* MBProgressHUD.m */; };
 		960843E2206A1FD5003ADC16 /* LogUtilsEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843E1206A1FD5003ADC16 /* LogUtilsEx.m */; };
 		960843E6206A2C66003ADC16 /* FileUtilsEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843E5206A2C66003ADC16 /* FileUtilsEx.m */; };
-		960843EC206A314B003ADC16 /* IsLoginByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843EB206A314B003ADC16 /* IsLoginByPost.m */; };
-		960843EF206A319E003ADC16 /* LoginByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843EE206A319E003ADC16 /* LoginByPost.m */; };
 		960843F3206A3585003ADC16 /* StrUtilsEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843F2206A3585003ADC16 /* StrUtilsEx.m */; };
-		960843F9206A380E003ADC16 /* LogoutByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843F8206A380D003ADC16 /* LogoutByPost.m */; };
+		96084406206B2355003ADC16 /* IsLoginByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 960843FE206B2354003ADC16 /* IsLoginByPost.m */; };
+		96084407206B2355003ADC16 /* LoginByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 96084400206B2354003ADC16 /* LoginByPost.m */; };
+		96084408206B2355003ADC16 /* LoginActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 96084402206B2354003ADC16 /* LoginActivity.m */; };
+		96084409206B2355003ADC16 /* LogoutByPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 96084404206B2355003ADC16 /* LogoutByPost.m */; };
 		96FF2EC72064A1990051E3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FF2EC62064A1990051E3C3 /* AppDelegate.m */; };
 		96FF2ECD2064A1990051E3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FF2ECB2064A1990051E3C3 /* Main.storyboard */; };
 		96FF2ED02064A1990051E3C3 /* shieldIns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96FF2ECE2064A1990051E3C3 /* shieldIns.xcdatamodeld */; };
@@ -40,8 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9608438C2064B9CD003ADC16 /* LoginActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginActivity.h; path = shieldIns/shieldIns/_1_login/LoginActivity.h; sourceTree = SOURCE_ROOT; };
-		9608438D2064B9CD003ADC16 /* LoginActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginActivity.m; path = shieldIns/shieldIns/_1_login/LoginActivity.m; sourceTree = SOURCE_ROOT; };
 		960843902064C5F5003ADC16 /* NavUtilsEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavUtilsEx.h; sourceTree = "<group>"; };
 		960843912064C5F5003ADC16 /* NavUtilsEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavUtilsEx.m; sourceTree = "<group>"; };
 		9608439C2064DDB5003ADC16 /* ScreenUtilsExP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenUtilsExP.h; sourceTree = "<group>"; };
@@ -84,14 +82,16 @@
 		960843E1206A1FD5003ADC16 /* LogUtilsEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogUtilsEx.m; sourceTree = "<group>"; };
 		960843E4206A2C66003ADC16 /* FileUtilsEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtilsEx.h; sourceTree = "<group>"; };
 		960843E5206A2C66003ADC16 /* FileUtilsEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtilsEx.m; sourceTree = "<group>"; };
-		960843EA206A314B003ADC16 /* IsLoginByPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IsLoginByPost.h; path = shieldIns/shieldIns/_1_login/IsLoginByPost.h; sourceTree = SOURCE_ROOT; };
-		960843EB206A314B003ADC16 /* IsLoginByPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IsLoginByPost.m; path = shieldIns/shieldIns/_1_login/IsLoginByPost.m; sourceTree = SOURCE_ROOT; };
-		960843ED206A3196003ADC16 /* LoginByPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginByPost.h; path = shieldIns/shieldIns/_1_login/LoginByPost.h; sourceTree = SOURCE_ROOT; };
-		960843EE206A319E003ADC16 /* LoginByPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginByPost.m; path = shieldIns/shieldIns/_1_login/LoginByPost.m; sourceTree = SOURCE_ROOT; };
 		960843F1206A3585003ADC16 /* StrUtilsEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrUtilsEx.h; sourceTree = "<group>"; };
 		960843F2206A3585003ADC16 /* StrUtilsEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrUtilsEx.m; sourceTree = "<group>"; };
-		960843F7206A380D003ADC16 /* LogoutByPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogoutByPost.h; path = shieldIns/shieldIns/_1_login/LogoutByPost.h; sourceTree = SOURCE_ROOT; };
-		960843F8206A380D003ADC16 /* LogoutByPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogoutByPost.m; path = shieldIns/shieldIns/_1_login/LogoutByPost.m; sourceTree = SOURCE_ROOT; };
+		960843FE206B2354003ADC16 /* IsLoginByPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsLoginByPost.m; sourceTree = "<group>"; };
+		960843FF206B2354003ADC16 /* LoginActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginActivity.h; sourceTree = "<group>"; };
+		96084400206B2354003ADC16 /* LoginByPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginByPost.m; sourceTree = "<group>"; };
+		96084401206B2354003ADC16 /* IsLoginByPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsLoginByPost.h; sourceTree = "<group>"; };
+		96084402206B2354003ADC16 /* LoginActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginActivity.m; sourceTree = "<group>"; };
+		96084403206B2355003ADC16 /* LoginByPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginByPost.h; sourceTree = "<group>"; };
+		96084404206B2355003ADC16 /* LogoutByPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutByPost.m; sourceTree = "<group>"; };
+		96084405206B2355003ADC16 /* LogoutByPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutByPost.h; sourceTree = "<group>"; };
 		96FF2EC22064A1990051E3C3 /* shieldIns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shieldIns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FF2EC52064A1990051E3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96FF2EC62064A1990051E3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,22 +113,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		960843812064B5A3003ADC16 /* _1_login */ = {
-			isa = PBXGroup;
-			children = (
-				960843F7206A380D003ADC16 /* LogoutByPost.h */,
-				960843F8206A380D003ADC16 /* LogoutByPost.m */,
-				960843EE206A319E003ADC16 /* LoginByPost.m */,
-				960843ED206A3196003ADC16 /* LoginByPost.h */,
-				9608438C2064B9CD003ADC16 /* LoginActivity.h */,
-				9608438D2064B9CD003ADC16 /* LoginActivity.m */,
-				960843EA206A314B003ADC16 /* IsLoginByPost.h */,
-				960843EB206A314B003ADC16 /* IsLoginByPost.m */,
-			);
-			name = _1_login;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		960843822064B5DA003ADC16 /* common */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +270,21 @@
 			path = str;
 			sourceTree = "<group>";
 		};
+		960843FD206B231F003ADC16 /* _1_login */ = {
+			isa = PBXGroup;
+			children = (
+				96084401206B2354003ADC16 /* IsLoginByPost.h */,
+				960843FE206B2354003ADC16 /* IsLoginByPost.m */,
+				960843FF206B2354003ADC16 /* LoginActivity.h */,
+				96084402206B2354003ADC16 /* LoginActivity.m */,
+				96084403206B2355003ADC16 /* LoginByPost.h */,
+				96084400206B2354003ADC16 /* LoginByPost.m */,
+				96084405206B2355003ADC16 /* LogoutByPost.h */,
+				96084404206B2355003ADC16 /* LogoutByPost.m */,
+			);
+			path = _1_login;
+			sourceTree = "<group>";
+		};
 		96FF2EB92064A1990051E3C3 = {
 			isa = PBXGroup;
 			children = (
@@ -323,20 +322,20 @@
 			isa = PBXGroup;
 			children = (
 				96FF2EFD2064B4C20051E3C3 /* _0_init */,
-				960843812064B5A3003ADC16 /* _1_login */,
+				960843FD206B231F003ADC16 /* _1_login */,
 				960843872064B5E7003ADC16 /* _2_devLst */,
 				960843862064B5E5003ADC16 /* _3_dev */,
 				960843852064B5E3003ADC16 /* _4_report */,
 				960843842064B5E0003ADC16 /* _5_gts */,
 				960843832064B5DD003ADC16 /* _z_mgr */,
 				960843822064B5DA003ADC16 /* common */,
+				960843C02069EA82003ADC16 /* ContentActivity.h */,
+				960843C12069EA82003ADC16 /* ContentActivity.m */,
 				960843882064B618003ADC16 /* dao */,
 				960843B52068DFEC003ADC16 /* LeftMenuActivity.h */,
 				960843B62068DFEC003ADC16 /* LeftMenuActivity.m */,
 				960843BD2069E8E9003ADC16 /* RootActivity.h */,
 				960843BE2069E8E9003ADC16 /* RootActivity.m */,
-				960843C02069EA82003ADC16 /* ContentActivity.h */,
-				960843C12069EA82003ADC16 /* ContentActivity.m */,
 			);
 			path = shieldIns;
 			sourceTree = "<group>";
@@ -459,17 +458,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960843EC206A314B003ADC16 /* IsLoginByPost.m in Sources */,
 				96FF2ED02064A1990051E3C3 /* shieldIns.xcdatamodeld in Sources */,
 				960843922064C5F5003ADC16 /* NavUtilsEx.m in Sources */,
 				96FF2ED82064A1990051E3C3 /* main.m in Sources */,
-				9608438E2064B9CD003ADC16 /* LoginActivity.m in Sources */,
 				960843D1206A0DAE003ADC16 /* LoginByPostOutVo.m in Sources */,
-				960843EF206A319E003ADC16 /* LoginByPost.m in Sources */,
 				960843C22069EA82003ADC16 /* ContentActivity.m in Sources */,
-				960843F9206A380E003ADC16 /* LogoutByPost.m in Sources */,
 				960843AE2068D99A003ADC16 /* DevLstActivity.m in Sources */,
+				96084407206B2355003ADC16 /* LoginByPost.m in Sources */,
 				960843CA206A0952003ADC16 /* LoginUtilsEx.m in Sources */,
+				96084409206B2355003ADC16 /* LogoutByPost.m in Sources */,
 				96FF2EC72064A1990051E3C3 /* AppDelegate.m in Sources */,
 				9608439E2064DDB5003ADC16 /* ScreenUtilsExP.m in Sources */,
 				960843B72068DFEC003ADC16 /* LeftMenuActivity.m in Sources */,
@@ -479,6 +476,8 @@
 				960843E2206A1FD5003ADC16 /* LogUtilsEx.m in Sources */,
 				960843DB206A15BB003ADC16 /* MBProgressHUD.m in Sources */,
 				960843A92068D2CB003ADC16 /* RECommonFunctions.m in Sources */,
+				96084406206B2355003ADC16 /* IsLoginByPost.m in Sources */,
+				96084408206B2355003ADC16 /* LoginActivity.m in Sources */,
 				960843AB2068D2CB003ADC16 /* RESideMenu.m in Sources */,
 				960843F3206A3585003ADC16 /* StrUtilsEx.m in Sources */,
 				960843D8206A119F003ADC16 /* ToastUtilsEx.m in Sources */,
